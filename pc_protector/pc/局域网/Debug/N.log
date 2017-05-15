@@ -1,0 +1,26 @@
+﻿生成启动时间为 2016-05-18 16:23:19。
+     1>项目“C:\Users\nibir\Desktop\index\主机保护\code\pc\N\N.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         A:\Program Files\vs2013\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Yc"stdafx.h" /Fp"Debug\N.pch" /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         A:\Program Files\vs2013\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Yu"stdafx.h" /Fp"Debug\N.pch" /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt N.cpp NDlg.cpp
+         NDlg.cpp
+     1>e:\program files\opencv\opencv\build\include\opencv2\core\mat.hpp(1965): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\program files\opencv\opencv\build\include\opencv2\core\persistence.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\program files\opencv\opencv\build\include\opencv2\core\utility.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\users\nibir\desktop\index\主机保护\code\pc\n\ndlg.cpp(115): warning C4101: “SendBuf”: 未引用的局部变量
+         N.cpp
+         正在生成代码...
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /l"0x0804" /IDebug\ /nologo /fo"Debug\N.res" N.rc 
+       Link:
+         A:\Program Files\vs2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\nibir\Desktop\index\主机保护\code\pc\N\Debug\N.exe" /INCREMENTAL /NOLOGO HOOK.lib opencv_ts300.lib opencv_ts300d.lib opencv_world300.lib opencv_world300d.lib /MANIFEST /MANIFESTUAC:"level='requireAdministrator' uiAccess='false'" /manifest:embed /manifestinput:"A:\Program Files\vs2013\VC\Include\Manifest\dpiaware.manifest" /Debug /PDB:"C:\Users\nibir\Desktop\index\主机保护\code\pc\N\Debug\N.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\nibir\Desktop\index\主机保护\code\pc\N\Debug\N.lib" /MACHINE:X86 Debug\N.res
+         Debug\N.obj
+         Debug\NDlg.obj
+         Debug\stdafx.obj
+     1>LINK : fatal error LNK1104: 无法打开文件“HOOK.lib”
+     1>已完成生成项目“C:\Users\nibir\Desktop\index\主机保护\code\pc\N\N.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:04.13
